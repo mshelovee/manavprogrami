@@ -1,0 +1,11 @@
+C:\Users\User\Desktop\KORUMASIZ\10A_Hilal\manav\manav\bin\Debug\manav.exe.config
+C:\Users\User\Desktop\KORUMASIZ\10A_Hilal\manav\manav\bin\Debug\manav.exe
+C:\Users\User\Desktop\KORUMASIZ\10A_Hilal\manav\manav\bin\Debug\manav.pdb
+C:\Users\User\Desktop\KORUMASIZ\10A_Hilal\manav\manav\obj\Debug\manav.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\KORUMASIZ\10A_Hilal\manav\manav\obj\Debug\manav.csproj.SuggestedBindingRedirects.cache
+C:\Users\User\Desktop\KORUMASIZ\10A_Hilal\manav\manav\obj\Debug\manav.formManav.resources
+C:\Users\User\Desktop\KORUMASIZ\10A_Hilal\manav\manav\obj\Debug\manav.Properties.Resources.resources
+C:\Users\User\Desktop\KORUMASIZ\10A_Hilal\manav\manav\obj\Debug\manav.csproj.GenerateResource.cache
+C:\Users\User\Desktop\KORUMASIZ\10A_Hilal\manav\manav\obj\Debug\manav.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\KORUMASIZ\10A_Hilal\manav\manav\obj\Debug\manav.exe
+C:\Users\User\Desktop\KORUMASIZ\10A_Hilal\manav\manav\obj\Debug\manav.pdb
