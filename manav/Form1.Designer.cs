@@ -34,6 +34,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.lboxMeyveler = new System.Windows.Forms.ListBox();
+            this.btnSil = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnEkle
@@ -53,7 +54,7 @@
             this.btnBosalt.BackColor = System.Drawing.Color.Red;
             this.btnBosalt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnBosalt.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnBosalt.Location = new System.Drawing.Point(15, 226);
+            this.btnBosalt.Location = new System.Drawing.Point(15, 212);
             this.btnBosalt.Name = "btnBosalt";
             this.btnBosalt.Size = new System.Drawing.Size(141, 59);
             this.btnBosalt.TabIndex = 1;
@@ -67,6 +68,7 @@
             this.txtEkle.Name = "txtEkle";
             this.txtEkle.Size = new System.Drawing.Size(141, 20);
             this.txtEkle.TabIndex = 2;
+            this.txtEkle.Text = " ";
             // 
             // label1
             // 
@@ -97,12 +99,26 @@
             this.lboxMeyveler.TabIndex = 5;
             this.lboxMeyveler.SelectedIndexChanged += new System.EventHandler(this.lboxMeyveler_SelectedIndexChanged);
             // 
+            // btnSil
+            // 
+            this.btnSil.BackColor = System.Drawing.Color.Red;
+            this.btnSil.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnSil.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.btnSil.Location = new System.Drawing.Point(15, 277);
+            this.btnSil.Name = "btnSil";
+            this.btnSil.Size = new System.Drawing.Size(141, 59);
+            this.btnSil.TabIndex = 6;
+            this.btnSil.Text = "Seçili Öğeyi Sil";
+            this.btnSil.UseVisualStyleBackColor = false;
+            this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
+            // 
             // formManav
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
             this.ClientSize = new System.Drawing.Size(358, 380);
+            this.Controls.Add(this.btnSil);
             this.Controls.Add(this.lboxMeyveler);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -124,6 +140,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ListBox lboxMeyveler;
+        private System.Windows.Forms.Button btnSil;
     }
 }
 

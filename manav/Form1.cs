@@ -31,5 +31,10 @@ namespace manav
         {
             lboxMeyveler.Items.Clear();
         }
+
+        private void btnSil_Click(object sender, EventArgs e)
+        {
+            lboxMeyveler.Items.Remove(lboxMeyveler.SelectedItem);
+        }
     }
 }
